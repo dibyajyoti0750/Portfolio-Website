@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Geist Mono", monospace;
+}
+
+.outline {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
