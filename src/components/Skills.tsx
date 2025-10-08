@@ -11,42 +11,33 @@ const skillsBadge: Skills[] = [
   { icon: assets.css, title: "CSS" },
   { icon: assets.js, title: "JavaScript" },
   { icon: assets.ts, title: "TypeScript" },
-  { icon: assets.tailwind, title: "Tailwind CSS" },
+  { icon: assets.tailwind, title: "Tailwind" },
+  { icon: assets.mongoDB, title: "Mongo DB" },
+  { icon: assets.express, title: "Express JS" },
   { icon: assets.react, title: "React JS" },
   { icon: assets.nodejs, title: "Node JS" },
-  { icon: assets.express, title: "Express JS" },
-  { icon: assets.mongoDB, title: "Mongo DB" },
+  { icon: assets.redux, title: "Redux" },
   { icon: assets.git, title: "Git" },
   { icon: assets.github, title: "GitHub" },
 ];
 
 export default function Skills(): ReactElement {
+  const skillsStyles =
+    "flex flex-col items-center justify-center gap-3 sm:gap-5 h-20 w-20 sm:h-24 sm:w-24 rounded font-semibold hover:bg-black hover:text-white transition-colors cursor-pointer border";
+
   return (
-    <div className="flex flex-col space-y-4 md:-mt-16 px-6 md:px-28 xl:px-56">
-      <div className="text-center text-2xl md:text-4xl mb-20">
+    <div className="flex flex-col items-center px-6 md:px-20 lg:px-40 xl:px-56 my-16 md:my-0 space-y-8">
+      {/* Heading */}
+      <div className="text-center text-2xl md:text-4xl font-medium">
         My <span className="font-black">Skills</span>
       </div>
 
-      <div className="flex justify-center text-sm text-center gap-4">
-        {skillsBadge.slice(0, 5).map((item) => (
-          <div
-            key={item.title}
-            className="flex flex-col items-center justify-center gap-5 border h-24 w-24 rounded font-semibold hover:bg-black hover:text-white cursor-pointer"
-          >
-            <img src={item.icon} className="w-8 h-8" />
-            <p>{item.title}</p>
-          </div>
-        ))}
-      </div>
-
-      <div className="flex justify-center text-sm text-center gap-4">
-        {skillsBadge.slice(5, skillsBadge.length).map((item) => (
-          <div
-            key={item.title}
-            className="flex flex-col items-center justify-center gap-5 border h-24 w-24 rounded font-semibold hover:bg-black hover:text-white cursor-pointer"
-          >
-            <img src={item.icon} className="w-8 h-8" />
-            <p>{item.title}</p>
+      {/* Skills Grid */}
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 sm:gap-6 text-center">
+        {skillsBadge.map((item) => (
+          <div key={item.title} className={skillsStyles}>
+            <img src={item.icon} alt={item.title} className="w-8 h-8" />
+            <p className="text-xs md:text-sm">{item.title}</p>
           </div>
         ))}
       </div>
