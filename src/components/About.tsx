@@ -3,9 +3,9 @@ import { assets } from "../assets/assets";
 
 export default function About(): ReactElement {
   return (
-    <section className="flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-16 py-10 md:py-20 px-6 md:px-16 xl:px-32">
+    <section className="bg-black flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-16 py-10 md:py-20 px-6 md:px-16 xl:px-32">
       {/* Left: Image */}
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center bg-white rounded-xl">
         <img
           src={assets.about}
           alt="About me"
@@ -15,10 +15,10 @@ export default function About(): ReactElement {
 
       {/* Right: Text */}
       <div className="flex flex-col justify-center">
-        <h1 className="text-3xl md:text-5xl font-medium mb-6 text-center md:text-left">
+        <h1 className="text-3xl md:text-5xl font-medium text-white mb-6 text-center md:text-left">
           About <span className="font-black">Me</span>
         </h1>
-        <p className="text-gray-600 leading-relaxed text-sm md:text-base text-justify">
+        <p className="text-gray-400 leading-relaxed text-sm md:text-base text-justify">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
           doloremque rem odit, nulla repudiandae quod iusto perferendis,
           quisquam praesentium expedita error corporis ab nobis natus
