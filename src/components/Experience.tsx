@@ -13,9 +13,9 @@ interface ExperienceProps {
 
 export default function Experience({ data }: ExperienceProps): ReactElement {
   return (
-    <section className="flex flex-col bg-black text-white my-24 py-28 px-6 sm:px-10 md:px-24 xl:px-56">
+    <section className="flex flex-col bg-black text-white mt-24 py-28 px-6 sm:px-10 md:px-24 xl:px-56">
       {/* Title */}
-      <h1 className="text-3xl md:text-4xl font-semibold mb-24 text-center">
+      <h1 className="text-3xl md:text-5xl font-medium mb-24 text-center">
         My <span className="font-black">Experience</span>
       </h1>
 
