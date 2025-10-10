@@ -1,18 +1,6 @@
-import type { ElementType, ReactElement } from "react";
+import type { ReactElement } from "react";
 import { assets } from "../assets/assets";
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
-
-type SocialLink = {
-  Icon: ElementType;
-  url: string;
-};
-
-const socials: SocialLink[] = [
-  { Icon: Github, url: "https://github.com" },
-  { Icon: Twitter, url: "https://x.com" },
-  { Icon: Linkedin, url: "https://linkedin.com" },
-  { Icon: Instagram, url: "https://instagram.com" },
-];
+import SocialMedia from "./SocialMedia";
 
 export default function Hero(): ReactElement {
   return (
@@ -26,7 +14,7 @@ export default function Hero(): ReactElement {
           </h1>
           <h1 className="leading-tight">
             <span className="font-black">Full-Stack </span>
-            <span className="font-black outline">Developer</span>
+            <span className="font-black text-blue-500">Developer</span>
           </h1>
           <h1>
             Based In <span className="font-black">India.</span>
@@ -49,18 +37,8 @@ export default function Hero(): ReactElement {
         </div>
       </div>
 
-      {/* Social Links */}
-      <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-        {socials.map(({ Icon, url }, idx) => (
-          <a
-            key={idx}
-            href={url}
-            className="p-3 border-2 rounded-lg hover:bg-black hover:text-white active:scale-110 transition-all duration-200"
-          >
-            <Icon />
-          </a>
-        ))}
-      </div>
+      {/* Social Media Links */}
+      <SocialMedia />
     </section>
   );
 }
