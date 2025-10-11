@@ -8,10 +8,10 @@ type SocialLink = {
 };
 
 const socials: SocialLink[] = [
-  { Icon: Github, url: "https://github.com" },
-  { Icon: Twitter, url: "https://x.com" },
-  { Icon: Linkedin, url: "https://linkedin.com" },
-  { Icon: Instagram, url: "https://instagram.com" },
+  { Icon: Github, url: "https://github.com/dibyajyoti0750" },
+  { Icon: Twitter, url: "https://x.com/developer_dj_" },
+  { Icon: Linkedin, url: "https://www.linkedin.com/in/dibyajyotipramanick/" },
+  { Icon: Instagram, url: "https://www.instagram.com/developer_dj/" },
 ];
 
 export default function SocialMedia(): ReactElement {

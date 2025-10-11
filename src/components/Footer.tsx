@@ -7,13 +7,12 @@ export default function Footer(): ReactElement {
       {/* Left side - Logo + Title */}
       <div className="flex items-center gap-3">
         <img
-          src={assets.ts}
+          src={assets.logo}
           alt="logo"
-          className="w-8 h-8 hover:scale-105 transition-transform duration-300"
+          className="w-12 h-12 rounded hover:scale-105 transition-transform duration-300"
         />
         <p className="text-sm md:text-xl font-medium tracking-wide">
-          Personal{" "}
-          <span className="text-blue-400 font-semibold">Portfolio</span>
+          Developer <span className="text-blue-400 font-semibold">DJ</span>
         </p>
       </div>
 
