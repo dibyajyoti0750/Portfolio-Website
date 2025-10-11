@@ -21,7 +21,7 @@ export default function Navbar(): ReactElement {
     <nav className="w-full bg-white py-5 mb-5 md:mb-0 font-semibold">
       <div className="flex justify-between px-10 md:justify-around items-center">
         <div className="flex items-center gap-2">
-          <img src={assets.logo} alt="Logo" className="w-8 h-8" />
+          <img src={assets.logo} alt="Logo" className="w-12 h-12" />
           <p>Dibyajyoti</p>
         </div>
 
@@ -44,7 +44,10 @@ export default function Navbar(): ReactElement {
           ))}
         </div>
 
-        <button className="hidden md:flex items-center gap-2 bg-black text-white rounded py-2 px-4 hover:bg-gray-900 transition cursor-pointer">
+        <button
+          onClick={() => alert("It will be available after I create one 😅")}
+          className="hidden md:flex items-center gap-2 bg-black text-white rounded py-2 px-4 hover:bg-gray-900 transition cursor-pointer"
+        >
           Resume <Download className="w-4 h-4" />
         </button>
       </div>

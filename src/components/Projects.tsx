@@ -136,8 +136,8 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="relative w-full overflow-clip">
+    <section id="projects" className="relative w-full overflow-clip">
       <Timeline data={data} />
-    </div>
+    </section>
   );
 }

@@ -3,7 +3,10 @@ import SocialMedia from "./SocialMedia";
 
 export default function Contact(): ReactElement {
   return (
-    <section className="bg-white flex flex-col md:grid md:grid-cols-2 gap-12 md:gap-20 py-16 md:py-32 px-6 mb-0 md:mb-10 md:px-16 xl:px-36 text-gray-900 overflow-x-hidden">
+    <section
+      id="contact"
+      className="bg-white flex flex-col md:grid md:grid-cols-2 gap-12 md:gap-20 py-16 md:py-32 px-6 mb-0 md:mb-10 md:px-16 xl:px-36 text-gray-900 overflow-x-hidden"
+    >
       {/* Contact Form */}
       <form className="col-span-1 flex flex-col gap-5 bg-gray-50 p-6 md:p-10 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300">
         <h2 className="text-2xl md:text-3xl font-semibold text-center text-gray-800">

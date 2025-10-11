@@ -26,7 +26,10 @@ export default function Skills(): ReactElement {
     "flex flex-col items-center justify-center gap-3 sm:gap-5 h-20 w-20 sm:h-24 sm:w-24 rounded font-semibold hover:bg-black hover:text-white transition-colors cursor-pointer border";
 
   return (
-    <div className="flex flex-col justify-center items-center my-16 md:my-0 md:mb-32">
+    <section
+      id="skills"
+      className="flex flex-col justify-center items-center py-16 md:py-0 md:mb-32"
+    >
       {/* Heading */}
       <div className="text-center text-3xl md:text-5xl font-medium mb-12">
         My <span className="font-black">Skills</span>
@@ -41,6 +44,6 @@ export default function Skills(): ReactElement {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

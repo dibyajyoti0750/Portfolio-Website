@@ -1,4 +1,4 @@
-import logo from "./check.png";
+import logo from "./logo.png";
 import hero from "./hero.png";
 import html from "./html.png";
 import css from "./css.png";

@@ -3,7 +3,10 @@ import { assets } from "../assets/assets";
 
 export default function About(): ReactElement {
   return (
-    <section className="bg-black flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-16 py-10 md:py-24 px-6 md:px-16 xl:px-32">
+    <section
+      id="about"
+      className="bg-black flex flex-col md:grid md:grid-cols-2 gap-10 md:gap-16 py-10 md:py-28 px-6 md:px-16 xl:px-32"
+    >
       {/* Left: Image */}
       <div className="flex justify-center items-center bg-white rounded-xl">
         <img
