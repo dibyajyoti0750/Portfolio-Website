@@ -3,12 +3,13 @@ import { Timeline } from "./ui/Timeline";
 export default function Projects() {
   const data = [
     {
-      title: "Project 1",
+      title: "GlowUp",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            illum.
+            A clean and responsive social platform where users can share posts,
+            connect, and engage easily. Built with a modern MERN stack setup for
+            smooth and fast interactions.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -44,17 +45,13 @@ export default function Projects() {
       ),
     },
     {
-      title: "Project 2",
+      title: "VibeWallz",
       content: (
         <div>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
-            possimus odit. Adipisci, dolorum!
-          </p>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A tempore,
-            minus tenetur distinctio deleniti itaque optio! Debitis quos fuga
-            voluptatem, culpa minus nesciunt dicta, eum.
+            An AI powered platform that generates unique wallpapers from simple
+            text prompts. Built to deliver clean, high quality visuals with a
+            smooth user experience.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -90,16 +87,13 @@ export default function Projects() {
       ),
     },
     {
-      title: "Project 3",
+      title: "Geminic",
       content: (
         <div>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A tempore,
-            minus tenetur distinctio deleniti itaque optio! Debitis quos fuga
-            voluptatem, culpa minus nesciunt dicta, eum.
+            A React based chatbot application that delivers a polished
+            conversational experience. Built with a focus on usability, speed,
+            and clean UI.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
