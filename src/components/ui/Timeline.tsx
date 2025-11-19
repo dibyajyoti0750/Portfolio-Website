@@ -51,6 +51,8 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               </div>
               <a
                 href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500"
               >
                 {item.title}
@@ -58,9 +60,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500"
+              >
                 {item.title}
-              </h3>
+              </a>
               {item.content}
             </div>
           </div>

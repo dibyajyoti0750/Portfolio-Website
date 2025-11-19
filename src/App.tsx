@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import MyTestimonials from "./components/MyTestimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { Toaster } from "react-hot-toast";
 
 export default function App(): ReactElement {
   return (
@@ -20,6 +21,7 @@ export default function App(): ReactElement {
       <About />
       <Projects />
       <MyTestimonials />
+      <Toaster />
       <Contact />
       <Footer />
     </div>

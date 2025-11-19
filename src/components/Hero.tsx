@@ -21,9 +21,10 @@ export default function Hero(): ReactElement {
           </h1>
 
           <p className="text-sm md:text-base text-gray-500 mt-4 leading-relaxed max-w-xl mx-auto lg:mx-0">
-            Hi, my name is Dibyajyoti Pramanick. I'm a passionate full-stack
-            developer with a love for creating fast, modern, and visually
-            appealing web experiences.
+            Hi, my name is Dibyajyoti Pramanick. I build full stack web apps end
+            to end. I design clean UIs, write efficient backend logic, manage
+            databases, create and consume APIs, handle auth, optimize
+            performance, and deploy production-ready features.
           </p>
         </div>
 

@@ -2,22 +2,22 @@ import { Timeline } from "./ui/Timeline";
 
 const projectImages = {
   glowup: [
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763483164/ss1_mfwyei.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763483164/ss2_db5mtz.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763483162/ss3_yvs7ux.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763483162/ss4_qv3o06.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570486/ss1_voymp1.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570311/ss2_uwchoj.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570310/ss3_zmiclc.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570310/ss4_doltv4.png",
   ],
   vibewallz: [
-    "https://placehold.co/600x400?text=Image+One",
-    "https://placehold.co/600x400?text=Image+Two",
-    "https://placehold.co/600x400?text=Image+Three",
-    "https://placehold.co/600x400?text=Image+Four",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570326/ss5_xwimwy.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570325/ss6_zr5mhv.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570324/ss7_nbdfz5.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570324/ss8_gxwqzq.png",
   ],
   geminic: [
-    "https://placehold.co/600x400?text=Image+One",
-    "https://placehold.co/600x400?text=Image+Two",
-    "https://placehold.co/600x400?text=Image+Three",
-    "https://placehold.co/600x400?text=Image+Four",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570343/ss9_iqy9wt.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570343/ss10_xlejoy.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570342/ss11_iputyj.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570342/ss12_lnmqoa.png",
   ],
 };
 

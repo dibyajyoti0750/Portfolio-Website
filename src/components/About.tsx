@@ -22,28 +22,23 @@ export default function About(): ReactElement {
           About <span className="font-black">Me</span>
         </h1>
         <p className="text-gray-400 leading-relaxed text-sm md:text-base text-justify">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
-          doloremque rem odit, nulla repudiandae quod iusto perferendis,
-          quisquam praesentium expedita error corporis ab nobis natus
-          perspiciatis iste. Natus, eaque modi. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Dolorem sint quae facere culpa alias,
-          dolores possimus dolore minima ducimus suscipit magnam distinctio
-          fugit incidunt non velit necessitatibus ipsum architecto expedita.
+          I'm someone who enjoys building things for the web and figuring out
+          how everything fits together. I'm still learning, but I like the
+          process of experimenting, breaking things, and slowly getting better
+          at turning ideas into something real.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quis
-          delectus minima esse quo rerum dolorum adipisci eligendi. Nisi fuga
-          architecto doloremque, id sequi illum debitis accusantium cupiditate.
-          In, explicabo. Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Eos aliquid ad cumque praesentium saepe magnam ex vitae,
-          exercitationem nulla, qui veniam similique enim soluta laborum quae
-          delectus voluptatum, quo nihil!
+          I've been working across the frontend and backend as I grow. Some days
+          I'm trying to make a layout feel smoother, and other days I'm dealing
+          with simple backend logic or getting an API to behave. I don't know
+          everything yet, but I enjoy picking up new tools and improving a
+          little at a time.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut ex
-          deserunt placeat maxime? Dolorem eos fugiat velit modi reprehenderit
-          maiores quo similique cumque nisi recusandae quae omnis, qui aperiam
-          possimus?
+          Right now, my goal is to build projects that actually work, load
+          quickly, and feel good to use. I'm not trying to present myself as an
+          expert. I'm just someone who likes creating things and wants to keep
+          moving forward with every project I build.
         </p>
       </div>
     </section>
