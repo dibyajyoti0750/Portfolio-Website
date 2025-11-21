@@ -54,7 +54,7 @@ export default function Navbar(): ReactElement {
 
       <div
         className={`
-        md:hidden overflow-hidden transition-all duration-300
+        md:hidden overflow-hidden transition-all duration-500
         ${
           showLinks
             ? "max-h-96 opacity-100 translate-y-0"
