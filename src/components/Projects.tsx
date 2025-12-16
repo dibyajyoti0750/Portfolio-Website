@@ -2,22 +2,22 @@ import { Timeline } from "./ui/Timeline";
 
 const projectImages = {
   glowup: [
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570486/ss1_voymp1.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570311/ss2_uwchoj.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570310/ss3_zmiclc.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570310/ss4_doltv4.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871239/ss1_likvv5.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871238/ss2_o2lafx.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871238/ss3_f6mcrl.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871237/ss4_cmcfq3.png",
+  ],
+  chadGPT: [
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871237/ss5_qbupuf.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871236/ss6_smg5xt.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871237/ss7_zmxzks.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871236/ss8_rixal1.png",
   ],
   vibewallz: [
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570326/ss5_xwimwy.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570325/ss6_zr5mhv.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570324/ss7_nbdfz5.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570324/ss8_gxwqzq.png",
-  ],
-  geminic: [
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570343/ss9_iqy9wt.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570343/ss10_xlejoy.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570342/ss11_iputyj.png",
-    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1763570342/ss12_lnmqoa.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871237/ss9_svq6n2.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871238/ss10_daddmm.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871236/ss11_vyho71.png",
+    "https://res.cloudinary.com/dqw6dicdi/image/upload/v1765871236/ss12_z8efzr.png",
   ],
 };
 
@@ -50,17 +50,17 @@ export default function Projects() {
       ),
     },
     {
-      title: "VibeWallz",
-      link: "https://vibewallz-ai.onrender.com",
+      title: "ChadGPT",
+      link: "https://chad-gpt-frontend-dj.vercel.app",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
-            An AI powered platform that generates unique wallpapers from simple
-            text prompts. Built to deliver clean, high quality visuals with a
-            smooth user experience.
+          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm">
+            An AI powered chat application built with the MERN stack, featuring
+            real time conversations, persistent chat history, user
+            authentication, and a clean responsive interface.
           </p>
           <div className="grid grid-cols-2 gap-4">
-            {projectImages.vibewallz.map((url) => (
+            {projectImages.chadGPT.map((url) => (
               <img
                 onClick={() => window.open(url, "_blank")}
                 src={url}
@@ -76,17 +76,17 @@ export default function Projects() {
       ),
     },
     {
-      title: "Geminic",
-      link: "https://react-gemini-clone-rho.vercel.app",
+      title: "VibeWallz",
+      link: "https://vibewallz-ai.onrender.com",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm">
-            A React based chatbot application that delivers a polished
-            conversational experience. Built with a focus on usability, speed,
-            and clean UI.
+          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm">
+            An AI powered platform that generates unique wallpapers from simple
+            text prompts. Built to deliver clean, high quality visuals with a
+            smooth user experience.
           </p>
           <div className="grid grid-cols-2 gap-4">
-            {projectImages.geminic.map((url) => (
+            {projectImages.vibewallz.map((url) => (
               <img
                 onClick={() => window.open(url, "_blank")}
                 src={url}
