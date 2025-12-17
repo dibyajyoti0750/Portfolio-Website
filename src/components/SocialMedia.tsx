@@ -1,6 +1,6 @@
 import type { ElementType, ReactElement } from "react";
 
-import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Phone, Twitter } from "lucide-react";
 
 type SocialLink = {
   Icon: ElementType;
@@ -11,7 +11,8 @@ const socials: SocialLink[] = [
   { Icon: Github, url: "https://github.com/dibyajyoti0750" },
   { Icon: Twitter, url: "https://x.com/developer_dj_" },
   { Icon: Linkedin, url: "https://www.linkedin.com/in/dibyajyotipramanick/" },
-  { Icon: Instagram, url: "https://www.instagram.com/developer_dj/" },
+  { Icon: Phone, url: "tel:+916291673760" },
+  // { Icon: Instagram, url: "https://www.instagram.com/developer_dj/" },
 ];
 
 export default function SocialMedia(): ReactElement {
