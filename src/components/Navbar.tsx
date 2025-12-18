@@ -44,12 +44,13 @@ export default function Navbar(): ReactElement {
           ))}
         </div>
 
-        <button
-          onClick={() => alert("It will be available after I create one 😅")}
+        <a
+          href="/Resume.pdf"
+          download
           className="hidden md:flex items-center gap-2 bg-black text-white rounded py-2 px-4 hover:bg-gray-900 transition cursor-pointer"
         >
           Resume <Download className="w-4 h-4" />
-        </button>
+        </a>
       </div>
 
       <div
@@ -72,12 +73,13 @@ export default function Navbar(): ReactElement {
               {item.title}
             </a>
           ))}
-          <button
-            onClick={() => alert("It will be available after I create one 😅")}
+          <a
+            href="/Resume.pdf"
+            download
             className="flex items-center justify-center gap-2 bg-black text-white rounded mt-2 py-2 px-4 hover:bg-gray-900 transition cursor-pointer"
           >
             Resume <Download className="w-4 h-4" />
-          </button>
+          </a>
         </div>
       </div>
     </nav>
